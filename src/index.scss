@@ -1,0 +1,17 @@
+@import './styles/variables';
+@import './styles/animations';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+:link, :active{
+  text-decoration: none;
+}
+
+*::selection {
+  background: $secondary-color;
+}
