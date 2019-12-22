@@ -63,14 +63,14 @@
       top: -100px;
     }
 
-    // main-nav-top-section__image
+    // main-nav-top-section__logo
     &__logo {
       cursor: pointer;
       color: $primary-font-color;
       font-family: $tertiary-font;
       height: auto;
       margin: 0 auto;
-      width: 50px;
+      width: 50%;
     }
 
     .main-nav-search-form {
@@ -239,5 +239,30 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .main-nav-top-section__logo{
+      cursor: pointer;
+      color: $primary-font-color;
+      font-family: $tertiary-font;
+      height: auto;
+      margin: 0 auto;
+      padding: 1rem;
+      font-size: .7rem;
+    
+  }
+}
+
+@media only screen and (max-width: 405px){
+  .main-nav-top-section__logo{
+      cursor: pointer;
+      color: $primary-font-color;
+      font-family: $tertiary-font;
+      height: auto;
+      margin: 0 auto;
+      padding: 2rem;
+      font-size: .55rem;
   }
 }

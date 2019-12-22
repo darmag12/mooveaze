@@ -131,3 +131,10 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 500px) {
+  .user-log-in-container-header__logo{
+    display: none;
+  }
+}
